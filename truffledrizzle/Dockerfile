@@ -19,4 +19,3 @@ COPY client/package-lock.json ./client/package-lock.json
 # Clean Install NPM Dependencies
 RUN cd client && npm ci
 ENTRYPOINT truffle init
-
